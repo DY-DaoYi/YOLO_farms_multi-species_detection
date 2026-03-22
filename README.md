@@ -14,12 +14,14 @@
 > **可视化模块说明**：系统内置了自动化分析逻辑，能够读取训练过程中的日志文件（results.csv），自动绘制 Loss 损失曲线、mAP 精度曲线和混淆矩阵。**这部分逻辑已完全开源**，即使不懂代码，也能直观地看到模型的训练效果，非常适合用于撰写论文时的图表生成。
 >
 > **🛒 核心模型与训练源码资源包 (Core Models & Training Codes) 包含：**
-> 1.  **核心训练代码**：包含 **train.py (单模型)** 和 **train_batch.py (批量实验)**，支持从数据预处理、断点续训到多模型对比评估的完整流程。
+> 1.  **核心训练代码**：包含 **train.py (单模型)** 和 **train_batch.py (批量实验)**，支持断点续训和自动批量大小（autobatch），训练完成后自动生成 GPU 耗时、成本估算和 mAP 评估报告。
 > 2.  **全系列模型权重与训练日志**：包含 **YOLOv8 / YOLO11 / YOLO26** 三个系列的 `best.pt` 模型文件，以及完整的训练日志、Loss 曲线图、mAP 指标图和混淆矩阵等评估图表，直接用于论文插图。
 > 3.  **（赠品）数据集**：本项目使用 [Roboflow Animals Dataset](https://universe.roboflow.com/roboflow-100/animals-ij5d2/dataset/2) 的开源数据集。
 >     *   *说明：数据集本身是免费开源的。但由于国内网络环境下载困难，我在资源包中免费提供了已整理好的数据集压缩包，方便大家直接使用。*
 > 
-> **📥 立即获取资源包：** [🐟 闲鱼 (Xianyu)](https://m.tb.cn/h.i4vrZc8?tk=IiuIUxur71G)
+> **📥 立即获取资源包：**
+> *   🍞 **面包多**：[点击购买](https://mbd.pub/o/bread/YZWckpdsaQ==)（**9折优惠**）
+> *   🐟 **闲鱼**：[点击购买](https://h5.m.goofish.com/item?forceFlush=1&id=1033624423045&ut_sk=1.ZzmZVYNWVs0DAFaC%252Fl5T74nC_21407387_1774153500828.copy.detail.1033624423045.2206494217471)
 
 ---
 
@@ -40,9 +42,9 @@
 >
 > 点击下方图标，跳转至各大视频平台查看系统的详细运行演示：
 >
-> | 哔哩哔哩 (Bilibili) | 抖音 (Douyin) | 小红书 (Xiaohongshu) |
-> | :---: | :---: | :---: |
-> | [![Bilibili](https://img.shields.io/badge/Bilibili-演示视频-pink?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV1Gkw3z3Egq/) | [![Douyin](https://img.shields.io/badge/抖音-演示视频-black?style=for-the-badge&logo=tiktok)](https://v.douyin.com/bmOeBv9zBbk) | [![Xiaohongshu](https://img.shields.io/badge/小红书-演示视频-red?style=for-the-badge&logo=xiaohongshu)](https://www.xiaohongshu.com/discovery/item/69b6cd5f000000002102cb74?source=webshare&xhsshare=pc_web&xsec_token=YBF_T3r11gcxZGQjc3tjRn87cBooDBS-SJpS7Izy7sNI8=&xsec_source=pc_share) |
+> | 哔哩哔哩 (Bilibili) | 抖音 (Douyin) | 小红书 (Xiaohongshu) | 快手 (Kuaishou) |
+> | :---: | :---: | :---: | :---: |
+> | [![Bilibili](https://img.shields.io/badge/Bilibili-演示视频-pink?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV12jAMzsEad/) | 审核中 | [![Xiaohongshu](https://img.shields.io/badge/小红书-演示视频-red?style=for-the-badge&logo=xiaohongshu)](https://www.xiaohongshu.com/discovery/item/69bf66f0000000002202623a?source=webshare&xhsshare=pc_web&xsec_token=YBwyt35asWp8-0S3cGfcKbofi1Fx0NeFVsuxtc4oLsXgc=&xsec_source=pc_share) | [![Kuaishou](https://img.shields.io/badge/快手-演示视频-green?style=for-the-badge&logo=kuaishou)](https://www.kuaishou.com/f/X1RCF5XJfT2bbsD) |
 >
 
 ---
@@ -193,15 +195,17 @@ YOLO_farms_multi-species_detection/
 > **💡 省钱建议**: 自己租用服务器复现所有实验不仅耗时耗力，且算力成本往往高于直接获取成品。
 >
 > **🛒 核心模型与训练源码资源包 (Core Models & Training Codes) 包含：**
-> 1.  **核心训练代码**：包含 **train.py (单模型)** 和 **train_batch.py (批量实验)**，支持从数据预处理、断点续训到多模型对比评估的完整流程。
+> 1.  **核心训练代码**：包含 **train.py (单模型)** 和 **train_batch.py (批量实验)**，支持断点续训和自动批量大小（autobatch），训练完成后自动生成 GPU 耗时，成本估算和 mAP 评估报告。
 > 2.  **全系列模型权重与训练日志**：包含 **YOLOv8 / YOLO11 / YOLO26** 三个系列的 `best.pt` 模型文件，以及完整的训练日志、Loss 曲线图、mAP 指标图和混淆矩阵等评估图表，直接用于论文插图。
 > 3.  **（赠品）数据集**：整理好的 Ultralytics 开源数据集压缩包。
 >
-> **📥 立即获取资源包：** [🐟 闲鱼 (Xianyu)](https://m.tb.cn/h.i4vrZc8?tk=IiuIUxur71G)
+> **📥 立即获取资源包：**
+> *   🍞 **面包多**：[点击购买](https://mbd.pub/o/bread/YZWckpdsaQ==)（**9折优惠**）
+> *   🐟 **闲鱼**：[点击购买](https://h5.m.goofish.com/item?forceFlush=1&id=1033624423045&ut_sk=1.ZzmZVYNWVs0DAFaC%252Fl5T74nC_21407387_1774153500828.copy.detail.1033624423045.2206494217471)
 
----
-
-## 👨‍💻 更多项目 & 联系作者 (More Projects & Contact)
+> ---
+> 
+> ## 👨‍💻 更多项目 & 联系作者 (More Projects & Contact)
 
 ### 💎 付费版毕设 (Premium Thesis Project)
 

@@ -63,11 +63,11 @@ python train.py --model runs/train/animals/yolov8n_animals/weights/last.pt --res
 2.  运行脚本：
 
 ```bash
-# 训练所有模型，100轮
-python train_batch.py --epochs 100 --batch 16
+# 训练所有模型，100轮 (自动批量大小)
+python train_batch.py --epochs 100
 
 # 快速测试，10轮
-python train_batch.py --epochs 10 --batch 16
+python train_batch.py --epochs 10
 ```
 
 ---
@@ -128,7 +128,7 @@ python train_batch.py --epochs 10 --batch 16
 | `--model` | `yolov8n.pt` | 模型权重文件路径或名称 |
 | `--data` | `../data/animals/data.yaml` | 数据集配置文件路径 |
 | `--epochs` | `100` | 训练总轮数 |
-| `--batch` | `16` | 批次大小 |
+| `--batch` | `-1` | 批次大小 (`-1` 表示自动批量大小) |
 | `--imgsz` | `640` | 输入图片尺寸 |
 | `--device` | `0` | 训练设备 (0, 1... 或 cpu) |
 | `--resume` | `False` | (仅 train.py) 是否开启断点续训 |
