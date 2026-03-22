@@ -44,7 +44,7 @@
 >
 > | 哔哩哔哩 (Bilibili) | 抖音 (Douyin) | 小红书 (Xiaohongshu) | 快手 (Kuaishou) |
 > | :---: | :---: | :---: | :---: |
-> | [![Bilibili](https://img.shields.io/badge/Bilibili-演示视频-pink?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV12jAMzsEad/) | [![Douyin](https://img.shields.io/badge/抖音-演示视频-black?style=for-the-badge&logo=douyin)](https://v.douyin.com/BtVlCruEVPA/) | [![Xiaohongshu](https://img.shields.io/badge/小红书-演示视频-red?style=for-the-badge&logo=xiaohongshu)](https://www.xiaohongshu.com/discovery/item/69bf66f0000000002202623a?source=webshare&xhsshare=pc_web&xsec_token=YBwyt35asWp8-0S3cGfcKbofi1Fx0NeFVsuxtc4oLsXgc=&xsec_source=pc_share) | [![Kuaishou](https://img.shields.io/badge/快手-演示视频-green?style=for-the-badge&logo=kuaishou)](https://www.kuaishou.com/f/X1RCF5XJfT2bbsD) |
+> | [![Bilibili](https://img.shields.io/badge/Bilibili-演示视频-pink?style=for-the-badge&logo=bilibili)](https://www.bilibili.com/video/BV12jAMzsEad/) | [![抖音](https://img.shields.io/badge/抖音-演示视频-black?style=for-the-badge&logo=tiktok)](https://v.douyin.com/BtVlCruEVPA/) | [![Xiaohongshu](https://img.shields.io/badge/小红书-演示视频-red?style=for-the-badge&logo=xiaohongshu)](https://www.xiaohongshu.com/discovery/item/69bf66f0000000002202623a?source=webshare&xhsshare=pc_web&xsec_token=YBwyt35asWp8-0S3cGfcKbofi1Fx0NeFVsuxtc4oLsXgc=&xsec_source=pc_share) | [![Kuaishou](https://img.shields.io/badge/快手-演示视频-green?style=for-the-badge&logo=kuaishou)](https://www.kuaishou.com/f/X1RCF5XJfT2bbsD) |
 >
 
 ---
