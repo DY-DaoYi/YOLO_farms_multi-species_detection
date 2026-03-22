@@ -160,7 +160,11 @@ YOLO_farms_multi-species_detection/
 ```
 *(注：`data/` (数据集)、`training/*.py` (训练脚本) 和 `models/*.pt` (模型文件) 为资源包专有内容，未包含在开源仓库中。)*
 
-### 🐾 支持检测的动物类别
+## 📊 数据集信息 (Dataset Information)
+
+本项目使用 [Roboflow Animals Dataset](https://universe.roboflow.com/roboflow-100/animals-ij5d2/dataset/2) 开源数据集，主要用于检测**农场多物种动物**。
+
+### 🐾 类别信息
 
 | 英文名 | 中文名 |
 |--------|--------|
@@ -174,6 +178,16 @@ YOLO_farms_multi-species_detection/
 | person | 人 |
 | racoon | 浣熊 |
 | skunk | 臭鼬 |
+
+### 📷 图片数量
+
+| 数据集 | 图片数量 |
+|--------|----------|
+| 训练集 | 700 张 |
+| 验证集 | 200 张 |
+| 测试集 | 100 张 |
+
+> **💡 说明**：数据集本身是免费开源的。但由于国内网络环境下载困难，资源包中免费提供了已整理好的数据集压缩包，方便大家直接使用。
 
 ---
 
