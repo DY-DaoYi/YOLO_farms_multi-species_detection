@@ -22,6 +22,8 @@
 > **📥 立即获取资源包：**
 > *   🍞 **面包多**：[点击购买](https://mbd.pub/o/bread/YZWckpdsaQ==)（**9折优惠**）
 > *   🐟 **闲鱼**：[点击购买](https://h5.m.goofish.com/item?forceFlush=1&id=1033624423045&ut_sk=1.ZzmZVYNWVs0DAFaC%252Fl5T74nC_21407387_1774153500828.copy.detail.1033624423045.2206494217471)
+>
+> （推荐使用面包多，9折优惠且自动发货）
 
 ---
 
@@ -216,6 +218,8 @@ YOLO_farms_multi-species_detection/
 > **📥 立即获取资源包：**
 > *   🍞 **面包多**：[点击购买](https://mbd.pub/o/bread/YZWckpdsaQ==)（**9折优惠**）
 > *   🐟 **闲鱼**：[点击购买](https://h5.m.goofish.com/item?forceFlush=1&id=1033624423045&ut_sk=1.ZzmZVYNWVs0DAFaC%252Fl5T74nC_21407387_1774153500828.copy.detail.1033624423045.2206494217471)
+>
+> （推荐使用面包多，9折优惠且自动发货）
 
 > ---
 > 
